@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/style.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Pokemon</title>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                for (var i=1; i< 152; i++){
+                    var beginning = "https://pokeapi.co/media/img/";
+                    var ending = ".png";
+                    var src = beginning + i + ending;
+                    $("<img src = "+ src + ">").appendTo("#images").addClass("imgs")
+                }
+            })
+            $("#reset").click(function(){
+                $(".imgs").css("display","none");
+            })
+        })
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Pokemon Pictures</h1>
+        <button id="btn">Click for Pokemon</button>
+        <button id="reset">Reset</button>
+        <div id="images">
+        </div>
+    </div>
+</body>
+</html>

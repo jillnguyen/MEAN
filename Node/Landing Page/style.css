@@ -1,0 +1,99 @@
+*wrapper {
+    width: 970px;
+    margin: 0 auto;
+    border: 2px solid grey;
+    background-color: lightgray;
+}
+
+h1 {
+    color: darkgreen;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#left, #right {
+    display: inline-block;
+}
+
+#left {
+    width: 400px;
+    vertical-align: top;
+}
+
+#left h2 {
+    font-size: 25px;
+    margin-top: 30px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+}
+
+form {
+    width: 350px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+#first_name, #last_name, #email, #phone {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#desc{
+    width: 80%;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+#btn {
+    height: 30px;
+    width: 100px;
+    background-color: lightgrey;
+}
+
+#right{
+    width: 450px;
+}
+
+.cards {
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 95px;
+}
+
+div.card {
+    border: 1px solid slateblue;
+    background-color:lightgray;
+    height: 100px;
+    width: 400px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 5px;
+}
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+button {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}
+.imgs {
+    border: 1px solid black;
+    margin: 5px 5px;
+}
